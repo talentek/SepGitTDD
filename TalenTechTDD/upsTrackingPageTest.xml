@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="upsTrackingPageTest Suite">
+	<test name="Test">
+		<classes>
+			<class name="ups.test.UpsTrackingPageTest">
+				<methods>
+					<include name="verifyTrackingError" />
+					<include name="funTrackingMsg" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

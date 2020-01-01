@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UPS Test Suite">
+	<test name="Sanity Test 1">
+		<groups>
+			<run>
+				<include name="smokeTest" />
+			</run>
+		</groups>
+		<classes>
+			<!-- <class name="ups.test.UpsLoginPageTest" /> -->
+			<class name="ups.test.UpsTrackingPageTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Sanity Test 2">
+		<groups>
+			<run>
+				<include name="RegressionTest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="ups.test.UpsLoginPageTest" />
+			<class name="ups.test.UpsTrackingPageTest" />
+		</classes>
+	</test> -->
+</suite> 

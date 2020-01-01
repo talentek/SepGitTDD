@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pack.ups.driver.UpsLoginPageDriver">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- pack.ups.driver.UpsLoginPageDriver -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
