@@ -59,7 +59,7 @@ public class UpsLoginPageTest extends UpsDriver {
 	@DataProvider(name = "testdata")
 	public Object[][] getExcelData() throws IOException {
 
-		return ReadExcelData.readExcel("D:\\Software-Testing-Training\\Excel-Test-Files\\Book1.xlsx", "Sheet1");
+		return ReadExcelData.readExcel("Book1.xlsx", "Sheet1");
 
 	}
 
