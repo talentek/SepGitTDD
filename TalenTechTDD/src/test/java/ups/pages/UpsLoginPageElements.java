@@ -12,6 +12,11 @@ public class UpsLoginPageElements {
 		this.driver = driver;
 	}
 
+	public WebElement implicitConsentSubmitBtn() {
+		WebElement implicitConsentSubmitBtn = driver.findElement(By.id("implicit_consent_prompt_submit"));
+		return implicitConsentSubmitBtn;
+	}
+
 	public WebElement userID() {
 		WebElement userId = driver.findElement(By.name("userID"));
 		return userId;

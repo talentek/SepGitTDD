@@ -11,6 +11,20 @@ public class UpsLoginPageActions {
 		this.loginPage = new UpsLoginPageElements(driver);
 	}
 
+	public void verifyImplicitConsent() {
+
+		try {
+			if (loginPage.implicitConsentSubmitBtn().isDisplayed()) {
+				System.out.println(">> UPS implicit consent is available");
+
+				loginPage.implicitConsentSubmitBtn().click();
+				System.out.println(">> Handled UPS implicit consent");
+			}
+		} catch (Exception e) {
+			System.out.println(">> UPS implicit consent is NOT available");
+		}
+	}
+
 	public void userID(String userid) {
 
 		loginPage.userID().sendKeys(userid);

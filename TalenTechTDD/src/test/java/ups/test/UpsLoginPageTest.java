@@ -3,6 +3,7 @@ package ups.test;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -27,9 +28,10 @@ public class UpsLoginPageTest extends UpsDriver {
 
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() {
-		/*driver.get(URL);
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);*/
+		/*
+		 * driver.get(URL); driver.manage().window().maximize();
+		 * driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		 */
 	}
 
 	@Test(dataProvider = "testdata", groups = { "smokeTEst" }, priority = 2)
@@ -37,7 +39,9 @@ public class UpsLoginPageTest extends UpsDriver {
 		driver.get(URL);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
+
+		upsLoginTest.verifyImplicitConsent();
+
 		System.out.println(userid + " " + password);
 
 		upsLoginTest.clearUserID();
@@ -52,8 +56,7 @@ public class UpsLoginPageTest extends UpsDriver {
 
 		boolean bool = upsLoginTest.loginErrormsg();
 		Assert.assertEquals(bool, true);
-		
-		
+
 	}
 
 	@DataProvider(name = "testdata")
