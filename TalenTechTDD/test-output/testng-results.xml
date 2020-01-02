@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34902" started-at="2020-01-01T22:29:47Z" finished-at="2020-01-01T22:30:22Z">
+  <suite name="Default suite" duration-ms="34631" started-at="2020-01-02T02:23:45Z" finished-at="2020-01-02T02:24:20Z">
     <groups>
       <group name="RegressionTest">
         <method signature="UpsLoginPageTest.funLoginMsg()[pri:1, instance:ups.test.UpsLoginPageTest@434a63ab]" name="funLoginMsg" class="ups.test.UpsLoginPageTest"/>
@@ -11,17 +11,17 @@
         <method signature="UpsLoginPageTest.verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" class="ups.test.UpsLoginPageTest"/>
       </group> <!-- smokeTEst -->
     </groups>
-    <test name="Default test" duration-ms="34902" started-at="2020-01-01T22:29:47Z" finished-at="2020-01-01T22:30:22Z">
+    <test name="Default test" duration-ms="34631" started-at="2020-01-02T02:23:45Z" finished-at="2020-01-02T02:24:20Z">
       <class name="ups.test.UpsLoginPageTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ups.test.UpsLoginPageTest@434a63ab]" name="beforeClass" is-config="true" duration-ms="19" started-at="2020-01-01T22:29:47Z" finished-at="2020-01-01T22:29:47Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ups.test.UpsLoginPageTest@434a63ab]" name="beforeClass" is-config="true" duration-ms="10" started-at="2020-01-02T02:23:45Z" finished-at="2020-01-02T02:23:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="funLoginMsg()[pri:1, instance:ups.test.UpsLoginPageTest@434a63ab]" name="funLoginMsg" duration-ms="3" started-at="2020-01-01T22:29:47Z" finished-at="2020-01-01T22:29:47Z">
+        <test-method status="PASS" signature="funLoginMsg()[pri:1, instance:ups.test.UpsLoginPageTest@434a63ab]" name="funLoginMsg" duration-ms="4" started-at="2020-01-02T02:23:45Z" finished-at="2020-01-02T02:23:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funLoginMsg -->
-        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="13177" started-at="2020-01-01T22:29:48Z" data-provider="testdata" finished-at="2020-01-01T22:30:01Z">
+        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="11792" started-at="2020-01-02T02:23:45Z" data-provider="testdata" finished-at="2020-01-02T02:23:57Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="5816" started-at="2020-01-01T22:30:01Z" data-provider="testdata" finished-at="2020-01-01T22:30:07Z">
+        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="5294" started-at="2020-01-02T02:23:57Z" data-provider="testdata" finished-at="2020-01-02T02:24:03Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="4869" started-at="2020-01-01T22:30:07Z" data-provider="testdata" finished-at="2020-01-01T22:30:11Z">
+        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="5318" started-at="2020-01-02T02:24:03Z" data-provider="testdata" finished-at="2020-01-02T02:24:08Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="4914" started-at="2020-01-01T22:30:11Z" data-provider="testdata" finished-at="2020-01-01T22:30:16Z">
+        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="5490" started-at="2020-01-02T02:24:08Z" data-provider="testdata" finished-at="2020-01-02T02:24:13Z">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="4945" started-at="2020-01-01T22:30:16Z" data-provider="testdata" finished-at="2020-01-01T22:30:21Z">
+        <test-method status="PASS" signature="verifyLoginError(java.lang.String, java.lang.String)[pri:2, instance:ups.test.UpsLoginPageTest@434a63ab]" name="verifyLoginError" duration-ms="5324" started-at="2020-01-02T02:24:13Z" data-provider="testdata" finished-at="2020-01-02T02:24:19Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ups.test.UpsLoginPageTest@434a63ab]" name="tearDown" is-config="true" duration-ms="669" started-at="2020-01-01T22:30:21Z" finished-at="2020-01-01T22:30:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ups.test.UpsLoginPageTest@434a63ab]" name="tearDown" is-config="true" duration-ms="831" started-at="2020-01-02T02:24:19Z" finished-at="2020-01-02T02:24:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
